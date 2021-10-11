@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { LandingPageComponent } from "./landing-page.component";
+import { LandingPageComponent } from "./components";
 
 
 

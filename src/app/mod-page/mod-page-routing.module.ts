@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { ModPageComponent } from "./mod-page.component";
+import { ModPageComponent } from "./components";
 
 
 export const modPageRoutes : Routes = [

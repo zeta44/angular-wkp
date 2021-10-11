@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CompPageComponent } from './components';
+import { CliPageComponent } from './components';
 
 
 
 @NgModule({
   declarations: [
-    CompPageComponent
+    CliPageComponent
   ],
   imports: [
     CommonModule
   ]
 })
-export class CompPageModule { }
+export class CliPageModule { }

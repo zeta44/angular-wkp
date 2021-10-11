@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { CompPageComponent } from "./comp-page.component";
+import { CompPageComponent } from "./components";
 
 
 
