@@ -1,18 +1,13 @@
 p{
     font-size: medium;
 }
-.principal{
-    background: url("../../assets/images/landinpage/landing_bg_left.png");
-    background-size: cover;
-}
-
-.secondario{
-    background: url("../../assets/images/landinpage/landing_bg_right.png");
-    background-size: cover;
+.landing_bg{
+    background: rgb(248,246,246);
+    background: linear-gradient(90deg, rgba(248,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(248,246,246,1) 100%);  
 }
 
 .img{
-    width: 60% !important;
+    width: 40% !important;
     margin-left: auto;
 	margin-right: auto;
 	display: block;
