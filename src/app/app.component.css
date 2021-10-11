@@ -1,9 +1,9 @@
 main {
     min-height: 70vh;
-    background-color: antiquewhite;
+    
 }
 
-/* ///////////////////////// */
+/* //////// FOOTER ///////////////// */
 
 body{margin-top:20px;}
 .deneb_footer .widget_wrapper {
@@ -174,3 +174,4 @@ body{margin-top:20px;}
 .deneb_cta .cta_wrapper .button_box .deneb_btn:focus {
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
 }
+

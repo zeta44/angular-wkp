@@ -1,4 +1,7 @@
 <header>
+	<div>
+
+	</div>
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- suporte a mobile -->
@@ -12,10 +15,10 @@
 				</button>
 				<a class="navbar-brand" href="#">{{title}}</a>
 			</div>
-	
+
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Inicial</a></li>
+					<li><a [routerLink]="['/landingpage']">Inicial</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">
@@ -23,29 +26,29 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li>
-								<a >
-									Dashboard
+								<a [routerLink]="['/comppage']">
+									Componentes
 								</a>
 							</li>
 							<li role="separator" class="divider"></li>
 							<li>
-								<a >
-									Calculadora
+								<a [routerLink]="['/modpage']">
+									Módulos
 								</a>
 							</li>
 							<li>
-								<a >
+								<a>
 									Conversor de moedas
 								</a>
 							</li>
 							<li>
-								<a >
+								<a>
 									Gerenciador de tarefas
 								</a>
 							</li>
-							
+
 							<li>
-								<a >
+								<a>
 									Jogo da velha
 								</a>
 							</li>
@@ -55,14 +58,14 @@
 			</div>
 		</div>
 	</nav>
-	<!-- <div class="container-fluid">
-		<router-outlet></router-outlet>
-	</div> -->
+
+	
+	
 </header>
 <main>
-
-
-
+	<section class="container-fluid">
+		<router-outlet></router-outlet>
+	</section>
 </main>
 <section class="deneb_cta">
 	<div class="container">
@@ -93,8 +96,8 @@
 							<h4>Mídias Sociais</h4>
 						</div>
 						<p>
-              Venha fazer parte da nossa comunidade nas principais mídias sociais.
-            </p>
+							Venha fazer parte da nossa comunidade nas principais mídias sociais.
+						</p>
 						<ul class="social">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
