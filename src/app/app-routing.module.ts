@@ -7,6 +7,7 @@ import { dataBindingRoutes } from "./data-binding/data-binding-routes.module";
 import { direcPageRoutes } from "./direc-page/direc-page-routing.module";
 import { landingPageRoutes } from "./landing-page/landing-page-routing.module";
 import { modPageRoutes } from "./mod-page/mod-page-routing.module";
+import { servicePageRoutes } from "./service-page/service-page-routing.module";
 
 
 export const routes:Routes = [
@@ -21,7 +22,8 @@ export const routes:Routes = [
     ...cliPageRoutes,
     ...biblioPageRoutes,
     ...dataBindingRoutes,
-    ...direcPageRoutes
+    ...direcPageRoutes,
+    ...servicePageRoutes
 
 ];
 

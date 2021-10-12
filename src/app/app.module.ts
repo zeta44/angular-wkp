@@ -10,6 +10,7 @@ import { DataBindingModule } from './data-binding';
 import { DirecPageModule } from './direc-page';
 import { LandingPageModule } from './landing-page';
 import { ModPageModule } from './mod-page';
+import { ServicePageModule } from './service-page';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ModPageModule } from './mod-page';
     BiblioPageModule,
     DataBindingModule,
     DirecPageModule,
+    ServicePageModule,
     AppRoutingModule
   ],
   providers: [],

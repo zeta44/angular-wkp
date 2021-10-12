@@ -1,1 +1,85 @@
-<p>mod-page works!</p>
+<section>
+    <section class="row landing_bg">
+        <article  data-aos="fade-right" data-aos-duration="2000" class="col-sm-8 bg-light my-5 principal">
+            <div class="text-justify ">
+                <h1>
+                    O que são Módulos?
+                </h1>
+                <h6>
+                    Este tópico pode ajudá-lo a entender sobre módulos do Angular.
+                </h6>
+                <br>
+                <p>
+                    NgModules são contêineres para um bloco coeso de código dedicado a um domínio de aplicativo, um fluxo de trabalho ou um conjunto de recursos intimamente relacionado. Eles podem conter componentes, provedores de serviços e outros arquivos de código cujo escopo é definido pelo NgModule que o contém. Eles podem importar funcionalidades que são exportadas de outros NgModules e exportar funcionalidades selecionadas para uso por outros NgModules.
+                </p>
+                <p>
+                    Metadados NgModule:
+                </p>
+                <br>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Metadados</th>
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">declarations</th>
+                            <td>Os componentes , directivas e pipes que pertencem a este NgModule.</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">exports</th>
+                            <td>O subconjunto de declarações que devem ser visíveis e utilizáveis ​​nos modelos de componentes de outros NgModules.</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row">imports</th>
+                            <td>Outros módulos cujas classes exportadas são necessárias para modelos de componentes declarados neste NgModule.
+                                </td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row">providers</th>
+                            <td>Criadores de serviços com os quais este NgModule contribui para a coleção global de serviços; eles se tornam acessíveis em todas as partes do aplicativo. (Você também pode especificar fornecedores no nível do componente.)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">bootstrap</th>
+                            <td>A visualização principal do aplicativo, chamada de componente raiz , que hospeda todas as outras visualizações do aplicativo. Apenas o NgModule raiz deve definir a bootstrap propriedade.</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+                <div>
+                    <pre>
+                        <blockquote>
+                            {{module_exe}}
+                        </blockquote>
+                    </pre>
+                </div>
+                <br>
+                <p>
+                    
+                    Para obter mais informações sobre módulos do Angular, consulte a documentação oficial
+                    neste link:
+                    <a target="_blank" href="https://angular.io/guide/architecture-modules">Documentação</a>.
+
+                </p>
+                
+
+            </div>
+
+        </article>
+        <article class="col-sm-4 secondario ">
+            <div data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="d-flex align-itens-center">
+                <img class="img" src="../../assets/images/landinpage/angular.png" alt="">
+            </div>
+
+        </article>
+    </section>
+</section>
+

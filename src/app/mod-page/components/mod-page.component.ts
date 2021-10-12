@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModPageComponent implements OnInit {
 
+  module_exe:string =
+  `
+  import { NgModule } from '@angular/core';
+  import { BrowserModule } from '@angular/platform-browser';
+  @NgModule({
+    imports:      [ BrowserModule ],
+    providers:    [ Logger ],
+    declarations: [ AppComponent ],
+    exports:      [ AppComponent ],
+    bootstrap:    [ AppComponent ]
+  })
+  export class AppModule { }`
   constructor() { }
 
   ngOnInit(): void {
