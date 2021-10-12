@@ -23,6 +23,7 @@ main {
     left: 0;
 }
 .header_baner .cta_wrapper .cta_content h3 {
+    font-size: 30px;
     color: #fff;
     font-weight: bold;
 }

@@ -7,10 +7,10 @@ p{
 }
 
 .img{
-    width: 40% !important;
+    width: 60% !important;
+    max-width: 60% !important;
     margin-left: auto;
 	margin-right: auto;
 	display: block;
     
 }
-

@@ -1,7 +1,7 @@
 <section>
     <section class="row landing_bg">
-        <article class="col-sm-8 bg-light  principal">
-            <div class="text-justify ml-5">
+        <article data-aos="fade-right" data-aos-duration="2000" class="col-sm-8 bg-light my-5 principal">
+            <div class="text-justify ">
                 <h1>
                     O que são Componentes?
                 </h1>
@@ -10,7 +10,8 @@
                 </h6>
                 <br>
                 <p>
-                    Os componentes são os blocos de construção que compõem um aplicativo. Um componente inclui uma classe TypeScript com um @Component() decorador, um modelo HTML e estilos. 
+                    Os componentes são os blocos de construção que compõem um aplicativo. Um componente inclui uma
+                    classe TypeScript com um @Component() decorador, um modelo HTML e estilos.
                 </p>
                 <p>
                     O @Component() decorador especifica as seguintes informações específicas:
@@ -19,8 +20,9 @@
 
                 <ul class="list-group">
                     <li class="list-group-item">
-                        Um seletor CSS que define como o componente é usado em um modelo. Os elementos HTML em seu modelo que correspondem a este seletor tornam-se instâncias do componente.
-                        
+                        Um seletor CSS que define como o componente é usado em um modelo. Os elementos HTML em seu
+                        modelo que correspondem a este seletor tornam-se instâncias do componente.
+
                     </li>
                     <li class="list-group-item">
                         Um modelo HTML que instrui o Angular sobre como renderizar o componente.
@@ -29,24 +31,48 @@
                         Um conjunto opcional de estilos CSS que definem a aparência dos elementos HTML do modelo.
                     </li>
                 </ul>
-
-
-                
+                <div>
+                    <h2>Exemplo de Componente</h2>
+                    <pre>
+                        <blockquote>
+                            {{code_comp}}
+                        </blockquote>
+                    </pre>
+                </div>
                 <p>
-                    O modelo de componente do Angular oferece forte encapsulamento e uma estrutura de aplicativo intuitiva. Os componentes também tornam seu aplicativo fácil de testar e podem melhorar a legibilidade geral de seu código.
-
-                    Para obter mais informações sobre o que fazer com os componentes, consulte a documentação oficial neste link:  
-                    <a target="_blank" href="https://angular.io/guide/component-overview">Componentes</a>.
-                     
+                    Ao adicionar o seletor acima, quando o Angular renderiza esse componente, o DOM resultante fica assim: 
                 </p>
+                <div>
+                    <pre>
+                        <blockquote>
+                            {{code_seletor}}
+                        </blockquote>
+                    </pre>
+                </div>
+
+                <br>
+                <p>
+                    O modelo de componente do Angular oferece forte encapsulamento e uma estrutura de aplicativo
+                    intuitiva. Os componentes também tornam seu aplicativo fácil de testar e podem melhorar a
+                    legibilidade geral de seu código.
+
+                    Para obter mais informações sobre o que fazer com os componentes, consulte a documentação oficial
+                    neste link:
+                    <a target="_blank" href="https://angular.io/guide/component-overview">Componentes</a>.
+
+                </p>
+                
+
             </div>
-           
+
         </article>
         <article class="col-sm-4 secondario ">
-            <div class="d-flex align-itens-center">
-              <img class="img" src="../../assets/images/landinpage/angular.png" alt="">  
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="d-flex align-itens-center">
+                <img class="img" src="../../assets/images/landinpage/angular.png" alt="">
             </div>
-           
+
         </article>
     </section>
 </section>

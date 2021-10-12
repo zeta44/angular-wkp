@@ -1,0 +1,124 @@
+<section>
+    <section class="row landing_bg">
+        <article  data-aos="fade-right" data-aos-duration="2000" class="col-sm-8 bg-light my-5 principal">
+            <div class="text-justify ">
+                <h1>
+                    O que são Diretivas?
+                </h1>
+                <h6>
+                    Este tópico pode ajudá-lo a entender sobre Diretivas do Angular.
+                </h6>
+                <br>
+                <p>
+                    As diretivas são marcadores em um elemento DOM (como um atributo)
+                    que informam ao Angular para anexar um comportamento especificado a
+                    um elemento existente. O propósito da diretiva é fornecer meios para que
+                    possamos manipular o DOM ou estender as funcionalidades do elemento
+                    no qual a diretiva terá ação, como por exemplo alterar o seu conteúdo,
+                    estilo, visibilidade etc.., dependendo da necessidade ou da funcionalidade a
+                    ser desenvolvida. As diretivas aumentam ainda mais a interatividade e
+                    performance de um website para o usuário.
+                </p>
+                <p>
+                    Tipos de Diretivas:
+                </p>
+                <br>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Diretiva</th>
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">ngStyle</th>
+                            <td>A diretiva ngStyle serve para alterar em tempo real valores de
+                                propriedades de CSS dentro de um elemento HTML ou componente. Essa
+                                diretiva receberá um objeto com as propriedades que serão mudadas
+                                dinamicamente. Para usar essa diretiva, adicione-o como atributo do seu
+                                elemento ou componente com a sintaxe o objeto receberá as
+                                propriedades que serão interpretadas pelo Angular e executadas visualmente pra o usuário.</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">ngClass</th>
+                            <td>A diretiva ngClass serve para adicionar ou remover uma classe de
+                                algum elemento HTML ou componente que está sendo usado. O ngClass,
+                                como o ngStyle, pode receber um objeto como valor, onde os atributos
+                                desse objeto será o nome das classes e os valores alguma expressão
+                                booleana que se verdadeira, adicionará a classe, se falsa, não adicionará.
+                                Mas também pode receber diretamente um atributo do componente onde o
+                                valor desse atributo é uma string com o nome da classe. A sintaxe é a
+                                mesma do ngStyle.</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row">ngIf</th>
+                            <td>O ngIf é uma diretiva estrutural que, a partir de uma condição
+                                booleana, pode ou não adicionar elementos a DOM, dinamizando ainda
+                                mais o site a interatividade do usuário. Diferente das outras diretivas
+                                apresentadas, essa não ficará em volta de colchetes, mas sim acompanhada
+                                de um asterisco (*), sendo assim sua sintaxe *ngIf=”expressaoBooleana”.
+                                </td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row">ngSwitch</th>
+                            <td>O ngSwitch também é uma diretiva estrutural e similar a estrutura
+                                switch das linguagens de programação. O diferencial dessa diretiva é que ela
+                                se divide em 3 partes: ngSwitch, ngSwitchCase engSwitchDefault, onde
+                                ongSwitch recebe o atributo que será testado, ngSwitchCase receberá o
+                                valor que tornará o case verdadeiro e o ngSwitchDefault será um elemento
+                                padrão que será renderizado caso nenhum dos cases for verdadeiro. A
+                                sintaxe do ngSwitch é [ngSwitch]=”attribute”. Enquanto do ngSwitchCase e
+                                do ngSwitchDefault recebem o asterisco na frente deles.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ngFor</th>
+                            <td>Essa diretiva, sem dúvida, é uma das mais importantes. Com ela, você
+                                constrói laços de repetição para arrays que contém dados que serão
+                                apresentados na tela do usuário. A sintaxe dessa diretiva é parecida com a do
+                                ngIf. No entanto, o jeito de usá-lo é diferente. Para usá-lo, a sintaxe dele é
+                                *ngFor=”let value of values”. A variável value possui um único valor de alguma
+                                posição do array values, podendo acessar assim o seu valor. Se caso for
+                                necessário, você pode também acessar o índice atual do elemento do array. Para
+                                isso, basta adicionar um ponto-e-vírgula (;)depois da primeira expressão e
+                                depois criar uma nova variável que receberá o índice, ficando da seguinte forma:
+                                *ngFor=”let value of values; let idx = index”.
+                                Fazendo assim, o índice atual do elemento estará acessível.</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+                <div>
+                    <pre>
+                        <blockquote>
+                            {{diretiva}}
+                        </blockquote>
+                    </pre>
+                </div>
+                <br>
+                <p>
+                    
+                    Para obter mais informações sobre Diretivas do Angular, consulte a documentação oficial
+                    neste link:
+                    <a target="_blank" href="https://angular.io/guide/built-in-directives">Documentação</a>.
+
+                </p>
+                
+
+            </div>
+
+        </article>
+        <article class="col-sm-4 secondario ">
+            <div data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="d-flex align-itens-center">
+                <img class="img" src="../../assets/images/landinpage/angular.png" alt="">
+            </div>
+
+        </article>
+    </section>
+</section>

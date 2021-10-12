@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BiblioPageModule } from './biblio-page';
 import { CliPageModule } from './cli-page';
 import { CompPageModule } from './comp-page';
+import { DataBindingModule } from './data-binding';
+import { DirecPageModule } from './direc-page';
 import { LandingPageModule } from './landing-page';
 import { ModPageModule } from './mod-page';
 
@@ -21,7 +23,8 @@ import { ModPageModule } from './mod-page';
     ModPageModule,
     CliPageModule,
     BiblioPageModule,
-
+    DataBindingModule,
+    DirecPageModule,
     AppRoutingModule
   ],
   providers: [],
